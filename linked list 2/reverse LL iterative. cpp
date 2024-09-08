@@ -1,0 +1,46 @@
+/*
+Problem statement
+Given a singly linked list of integers, reverse it iteratively and return the head to the modified list.
+*/
+/****************************************************************
+ 
+    Following is the class structure of the Node class:
+
+        class Node
+        {
+        public:
+	        int data;
+	        Node *next;
+	        Node(int data)
+	        {
+		        this->data = data;
+		        this->next = NULL;
+	        }
+        };
+
+*****************************************************************/
+	//	   1 -> 2 -> 3 -> 4 -> 5 -> NULL
+	//p   c      n
+
+Node *reverseLinkedList(Node *head){
+    
+	Node* prev=NULL;
+	
+	Node* current=head;
+	
+	
+
+	while(current!=NULL){
+		
+		Node* next=current->next;
+		
+		current->next=prev;   
+		
+		prev=current;   // move the ptrs
+		
+		current=next;	// move the ptrs
+	}
+	
+	return prev;
+
+}
