@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ce68f121-3bb9-4c6c-bc4f-dd20ce7faf6e)These are the problems I solved during the course C++ DSA course of Coding Ninjas.
+These are the problems I solved during the course C++ DSA course of Coding Ninjas.
 all codes are contributed by Raunak Bhutani.
 This course provided me with in-depth knowledge of various data structures like:
 🔹 Arrays, 
